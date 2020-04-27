@@ -15,10 +15,11 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(https://pngimage.net/wp-content/uploads/2018/05/background-batik-png-3.png);
   background-size: cover;
-  color: white;
+  color: blue;
   text-align: center;
+  height: 450px;
 }
 
 .top-wrapper h1 {
@@ -31,6 +32,7 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+  font-size: 25px;
 }
 
 .btn-wrapper {
@@ -109,16 +111,16 @@ header {
 }
 
 .lesson-wrapper {
-  height: 500px;
+  height: 400px;
   padding-bottom: 80px;
-  background-color: #f7f7f7;
+  background-color: #C0C0C0;
   text-align: center;
 }
 
 .heading {
   padding-top: 60px;
   padding-bottom: 30px;
-  color: #5f5d60;
+  color: blue;
 }
 
 .heading h2 {
@@ -127,7 +129,7 @@ header {
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 .lesson-icon {
@@ -136,9 +138,9 @@ header {
 
 .lesson-icon p {
   position: absolute;
-  top: 90px;
+  top: 150px;
   width: 100%;
-  color: white;
+  color: blue;
 }
 
 /*penambahan iklan */
@@ -168,12 +170,33 @@ header {
 }
 /*----- */
 
+.contact-form {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
 .txt-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #964B00;
 }
 
 .heading h3 {
@@ -184,6 +207,7 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #FFC0CB;
 }
 
 .message {
